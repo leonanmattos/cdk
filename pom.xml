@@ -43,6 +43,14 @@
             <artifactId>core</artifactId>
             <version>${cdk.version}</version>
         </dependency>
+
+        <!-- AWS EC2 -->
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>ec2</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
             <artifactId>assertions</artifactId>
